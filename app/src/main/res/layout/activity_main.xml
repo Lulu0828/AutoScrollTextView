@@ -9,8 +9,11 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.lulu.autoscrolltextview.MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
+    <com.lulu.autoscrolltextview.AutoScrollTextView
+        android:id="@+id/auto_textview"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Hello World!" />
+        android:gravity="center_horizontal"
+        android:padding="5dp" />
+
 </RelativeLayout>
